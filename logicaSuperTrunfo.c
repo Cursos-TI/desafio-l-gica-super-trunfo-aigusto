@@ -6,6 +6,12 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+
+
+    
+    pintf("Desafio Lógico do Super Trunfo")
+
+        
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
