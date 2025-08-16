@@ -22,8 +22,6 @@ int main() {
     // 
     // (Repita para cada propriedade)
 
-   int main() {
-
     char nome1[10], nome2[10] 
     char codigo1[4], codigo2[4];
     int populacao1, populacao2;
