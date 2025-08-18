@@ -101,8 +101,14 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %f R$\n", pibPerCapita2);
 
-    If (populacao1) > (populacao2) {
-       printf ("
+     if (populacao1 > populacao2) {
+    printf("Cidade 1 tem maior população.\n",populacao1);
+     } else {
+     printf("Cidade 2 tem maior população.\n", populacao2);
+     }
+
+
+            
        // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
