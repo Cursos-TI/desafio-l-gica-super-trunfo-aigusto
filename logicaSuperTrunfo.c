@@ -83,6 +83,7 @@ int main() {
     // Exibição dos dados
     printf("\nCARTA 1\n");
     printf("Código: %s\n", codigo1);
+    printf("Cidade: %s\n", nome1);
     printf("População: %d\n", populacao1);
     printf("Área: %f km²\n", area1);
     printf("PIB: %f bilhões\n", pib1);
@@ -92,14 +93,17 @@ int main() {
 
     printf("\nCARTA 2\n");
     printf("Código: %s\n", codigo2);
+    printf("Cidade: %s\n", nome2);
     printf("População: %d\n", populacao2);
     printf("Área: %f km²\n", area2);
     printf("PIB: %f bilhões\n", pib2);
     printf("Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %f R$\n", pibPerCapita2);
-    
-    // Comparação de Cartas:
+
+    If (populacao1) > (populacao2) {
+       printf ("
+       // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
