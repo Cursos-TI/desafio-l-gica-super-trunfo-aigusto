@@ -101,14 +101,66 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %f R$\n", pibPerCapita2);
 
-     if (populacao1 > populacao2) {
-    printf("Cidade 1 tem maior população.\n",populacao1);
-     } else {
-     printf("Cidade 2 tem maior população.\n", populacao2);
-     }
+      printf("\n=== RESULTADO DAS COMPARAÇÕES ===\n");
 
+    // População
+    if (populacao1 > populacao2) {
+        printf("Carta 1 vence em População.\n");
+    } else if (populacao2 > populacao1) {
+        printf("Carta 2 vence em População.\n");
+    } else {
+        printf("Empate em População.\n");
+    }
 
-            
+    // Área
+    if (area1 > area2) {
+        printf("Carta 1 vence em Área.\n");
+    } else if (area2 > area1) {
+        printf("Carta 2 vence em Área.\n");
+    } else {
+        printf("Empate em Área.\n");
+    }
+
+    // PIB
+    if (pib1 > pib2) {
+        printf("Carta 1 vence em PIB.\n");
+    } else if (pib2 > pib1) {
+        printf("Carta 2 vence em PIB.\n");
+    } else {
+        printf("Empate em PIB.\n");
+    }
+
+    // Pontos Turísticos
+    if (pontosTuristicos1 > pontosTuristicos2) {
+        printf("Carta 1 vence em Pontos Turísticos.\n");
+    } else if (pontosTuristicos2 > pontosTuristicos1) {
+        printf("Carta 2 vence em Pontos Turísticos.\n");
+    } else {
+        printf("Empate em Pontos Turísticos.\n");
+    }
+
+    // Densidade populacional (MENOR valor vence!)
+    if (densidade1 < densidade2) {
+        printf("Carta 1 vence em Densidade Populacional (menor é melhor).\n");
+    } else if (densidade2 < densidade1) {
+        printf("Carta 2 vence em Densidade Populacional (menor é melhor).\n");
+    } else {
+        printf("Empate em Densidade Populacional.\n");
+    }
+
+    // PIB per capita
+    if (pibPerCapita1 > pibPerCapita2) {
+        printf("Carta 1 vence em PIB per Capita.\n");
+    } else if (pibPerCapita2 > pibPerCapita1) {
+        printf("Carta 2 vence em PIB per Capita.\n");
+    } else {
+        printf("Empate em PIB per Capita.\n");
+    }
+
+    return 0;
+}
+
+                   
        // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
@@ -127,5 +179,3 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-    return 0;
-}
